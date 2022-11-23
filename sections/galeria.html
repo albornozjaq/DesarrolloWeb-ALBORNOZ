@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="../css/styles.css">
     <title> Galeria | Chocolatexfavor</title>
 </head>
@@ -55,14 +56,15 @@
         </nav>
     </header>
 
-    <main> 
+    <main>
         <div class="color-formulario">
             <h2> Galería </h2>
         </div>
         <section class="contenedor-galeria">
-           
             <div class="div-galeria">
-                <img class="img-recetas" src="../img/dobleoreo2.jpeg" alt="Torta doble oreo">
+                <div data-aos="flip-left">
+                    <img class="img-recetas" src="../img/dobleoreo2.jpeg" alt="Torta doble oreo">
+                </div>
                 <p class="p-titulo">Torta doble oreo</p>
                 <p class="p-texto">Contiene una capa de
                     <br>
@@ -72,13 +74,12 @@
                     <br>
                     y repite una capa de cada una.
                 </p>
-
-
             </div>
 
             <div class="div-galeria">
-                <img class="img-recetas" src="../img/rosetaschoco.jpeg" alt="Torta de chocolate">
-
+                <div data-aos="flip-left">
+                    <img class="img-recetas" src="../img/rosetaschoco.jpeg" alt="Torta de chocolate">
+                </div>
                 <p class="p-titulo">Torta de chocolate</p>
                 <p class="p-texto">
                     Bizcochuelo de chocolate con
@@ -92,10 +93,10 @@
             </div>
 
 
-
             <div class="div-galeria">
-                <img class="img-recetas" src="../img/selvanegra2.jpeg" alt="Torta selva negra">
-
+                <div data-aos="flip-left">
+                    <img class="img-recetas" src="../img/selvanegra2.jpeg" alt="Torta selva negra">
+                </div>
                 <p class="p-titulo"> Torta selva negra</p>
                 <p class="p-texto">
                     Es un bizcochuelo de chocolate, con
@@ -114,7 +115,9 @@
             </div>
 
             <div class="div-galeria">
-                <img class="img-recetas" src="../img/trufada.jpeg" alt="Torta con trufas">
+                <div data-aos="flip-left">
+                    <img class="img-recetas" src="../img/trufada.jpeg" alt="Torta con trufas">
+                </div>
                 <p class="p-titulo">Torta con trufas </p>
                 <p class="p-texto">
                     Contiene un bizcochuelo de vainilla, con
@@ -132,10 +135,11 @@
 
 
             </div>
-          
-            
+
             <div class="div-galeria">
-                <img class="img-recetas" src="../img/merengada.jpeg" alt="Torta con merengue italiano">
+                <div data-aos="flip-left">
+                    <img class="img-recetas" src="../img/merengada.jpeg" alt="Torta con merengue italiano">
+                </div>
                 <p class="p-titulo"> Torta merengada</p>
                 <p class="p-texto">
                     Contiene bizcochuelo de chocolate, con
@@ -149,7 +153,14 @@
 
             </div>
             <div class="div-galeria">
-                <img class="img-recetas" src="../img/tortacnombre.jpeg" alt="Torta personalizada con nombre">
+
+
+                <div data-aos="flip-left">
+
+
+
+                    <img class="img-recetas" src="../img/tortacnombre.jpeg" alt="Torta personalizada con nombre">
+                </div>
                 <p class="p-titulo">Torta personalizada</p>
                 <p class="p-texto">
                     Es un bizcochuelo de chocolate, con
@@ -158,15 +169,14 @@
                     <br>
                     y otra capa de crema chantilly con trozos
                     <br>
-                    de durazno. Está cubierta de mousse de 
+                    de durazno. Está cubierta de mousse de
                     <br>
-                  dulce de leche, decorada con chocolatines 
+                    dulce de leche, decorada con chocolatines
                     <br>
                     y letras de chocolate blanco formando el nombre del cliente
                 </p>
             </div>
 
-          
         </section>
 
     </main>
@@ -198,8 +208,10 @@
         </section>
     </footer>
 
-
-
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>

@@ -28,7 +28,7 @@ html {
 
 header {
     background-color: #ffffff;
-    
+
 }
 
 footer {
@@ -56,7 +56,7 @@ h1 {
     font-size: 6rem;
     text-align: center;
     color: #d8297a;
-   
+
 }
 
 p {
@@ -71,7 +71,7 @@ p {
 
 h2 {
     padding: 20px;
-   text-align: center;
+    text-align: center;
     font-family: Vainilla;
     font-size: 4rem;
     color: #5c230a;
@@ -86,8 +86,8 @@ h3 {
 }
 
 .h3-titulo {
-    color: #d8297a; 
-    
+    color: #d8297a;
+
     font-family: Vainilla;
     font-size: 2.5rem;
 }
@@ -97,20 +97,20 @@ h4 {
     font-size: 2rem;
     color: black;
     text-align: center;
-    
+
 }
 
 nav ul {
-display: flex;
-flex-direction: row;
-justify-content:center;
-padding-top: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 15px;
 }
 
 .p-titulo {
     font-family: Vainilla;
     font-size: 2.5rem;
-    
+
 }
 
 .p-texto {
@@ -179,44 +179,44 @@ a {
 .flex-galeria {
     display: flex;
     flex-wrap: wrap;
-justify-content: center;
-background-color: #F2D5C4;
+    justify-content: center;
+    background-color: #F2D5C4;
 }
 
 .color-formulario {
-    background-color:#F2D5C4;
+    background-color: #F2D5C4;
     display: flex;
     justify-content: center;
-    
+
 }
 
 label {
     font-family: PerfectLova;
     font-size: 2rem;
     color: rgb(124, 44, 44);
-    
+
 }
 
 .input-boton {
     background-color: #d8297a;
     padding: 25px;
     border-radius: 100px;
-    color: #F2D5C4; 
+    color: #F2D5C4;
     border-color: white;
 }
 
 .contenedor {
     display: grid;
-    background:#F2D5C4;
-   
+    background: #F2D5C4;
+
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 0.1fr 1fr 0.5fr;
     grid-template-areas: "titulo         titulo"
-                         "ingredientes   imagen"
-                         "procedimiento  procedimiento";
+        "ingredientes   imagen"
+        "procedimiento  procedimiento";
     justify-content: center;
     align-items: center;
-}   
+}
 
 .contenedor .titulo {
     background: #F2D5C4;
@@ -241,15 +241,15 @@ label {
 
 
 .img-recetas {
-   
+
     width: 50%;
     height: 50%;
-    
+
 }
 
 .color {
-   background-color: #D9115A;
-   
+    background-color: #D9115A;
+
 }
 
 .img-carousel {
@@ -261,16 +261,17 @@ label {
     background-color: #F2D5C4;
     width: 100%;
     text-align: center;
-    
+
 }
 
-button{
+button {
     border: none;
     background-color: transparent;
     transition: 0.5s;
 }
+
 button:hover {
-    
+
     transform: scale(1.3);
 }
 
@@ -281,17 +282,244 @@ a:hover {
 .contenedor-galeria {
     background-color: #F2D5C4;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(2, [col-start]) 1fr;
 
 
-    grid-template-rows: 1fr  1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
 
     justify-content: center;
     align-items: center;
 }
 
 .div-galeria {
-    
+
     text-align: center;
-    
+
+}
+
+@media screen and (min-width: 320px) {
+
+    h1 {
+
+        font-family: Perfect;
+        font-size: 3rem;
+        text-align: center;
+        color: #d8297a;
+
+    }
+
+    p {
+        padding: 10px;
+        font-family: Vainilla;
+        font-weight: bold;
+        font-size: 1rem;
+        color: #000000;
+        margin-right: 60px;
+        margin-left: 60px;
+    }
+
+    h2 {
+        padding: 20px;
+        text-align: center;
+        font-family: Vainilla;
+        font-size: 3rem;
+        color: #5c230a;
+
+
+    }
+
+    h3 {
+        font-family: PerfectLova;
+        font-size: 1.2rem;
+        text-align: center;
+    }
+
+    .h3-titulo {
+        color: #d8297a;
+
+        font-family: Vainilla;
+        font-size: 1.2rem;
+    }
+
+    h4 {
+        font-family: PerfectLova;
+        font-size: 2rem;
+        color: black;
+        text-align: center;
+
+    }
+
+
+
+    .p-titulo {
+        font-family: Vainilla;
+        font-size: 2.5rem;
+
+    }
+
+    .p-texto {
+        font-family: Vainilla;
+        font-size: 2rem;
+        color: rgb(124, 44, 44);
+    }
+
+
+a {
+    font-size: 13px;
+}
+
+.img-carousel {
+    width: 200%;
+    height: 200%;
+}
+
+
+}
+
+
+@media screen and (min-width: 480px) {
+
+    h1 {
+
+        font-family: Perfect;
+        font-size: 3rem;
+        text-align: center;
+        color: #d8297a;
+
+    }
+
+    p {
+        padding: 10px;
+        font-family: Vainilla;
+        font-weight: bold;
+        font-size: 0.5rem;
+        color: #000000;
+        margin-right: 60px;
+        margin-left: 60px;
+    }
+
+    h2 {
+        padding: 20px;
+        text-align: center;
+        font-family: Vainilla;
+        font-size: 3rem;
+        color: #5c230a;
+
+
+    }
+
+    h3 {
+        font-family: PerfectLova;
+        font-size: 0.9rem;
+        text-align: center;
+    }
+
+    .h3-titulo {
+        color: #d8297a;
+
+        font-family: Vainilla;
+        font-size: 0.9rem;
+    }
+
+    h4 {
+        font-family: PerfectLova;
+        font-size: 1rem;
+        color: black;
+        text-align: center;
+
+    }
+
+    .p-titulo {
+        font-family: Vainilla;
+        font-size: 1.5rem;
+
+    }
+
+    .p-texto {
+        font-family: Vainilla;
+        font-size: 1rem;
+        color: rgb(124, 44, 44);
+    }
+
+
+a{
+    font-size: 17px;
+}
+
+.img-carousel {
+    width: 100%;
+    height: 100%;
+}
+
+}
+
+@media screen and (min-width: 1024px) {
+
+    h1 {
+
+        font-family: Perfect;
+        font-size: 6rem;
+        text-align: center;
+        color: #d8297a;
+
+    }
+
+    p {
+        padding: 10px;
+        font-family: Vainilla;
+        font-weight: bold;
+        font-size: 2.5rem;
+        color: #000000;
+        margin-right: 60px;
+        margin-left: 60px;
+    }
+
+    h2 {
+        padding: 20px;
+        text-align: center;
+        font-family: Vainilla;
+        font-size: 4rem;
+        color: #5c230a;
+
+
+    }
+
+    h3 {
+        font-family: PerfectLova;
+        font-size: 2.5rem;
+        text-align: center;
+    }
+
+    .h3-titulo {
+        color: #d8297a;
+
+        font-family: Vainilla;
+        font-size: 2.5rem;
+    }
+
+    h4 {
+        font-family: PerfectLova;
+        font-size: 2rem;
+        color: black;
+        text-align: center;
+
+    }
+
+
+    .p-titulo {
+        font-family: Vainilla;
+        font-size: 2.5rem;
+
+    }
+
+    .p-texto {
+        font-family: Vainilla;
+        font-size: 2rem;
+        color: rgb(124, 44, 44);
+    }
+
+    a {
+        font-size: 20px;
+    }
+
 }
