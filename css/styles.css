@@ -1,0 +1,274 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+html {
+    font-size: 62.5%;
+}
+
+
+@font-face {
+
+    font-family: Perfect;
+    src: url(../font/PerfectLova.otf);
+
+}
+
+@font-face {
+    font-family: Vainilla;
+    src: url(../font/Vainilla.otf);
+}
+
+@font-face {
+    font-family: Hellobean;
+    src: url(../font/Hellobean.otf);
+}
+
+header {
+    background-color: #ffffff;
+}
+
+footer {
+    background-color: #ffffff;
+}
+
+.flex-footer {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    background-color: white;
+
+}
+
+.box-footer {
+    width: 200px;
+    text-align: center;
+
+}
+
+h1 {
+
+    font-family: Perfect;
+    font-size: 6rem;
+    text-align: center;
+    color: #d8297a;
+    padding-top: 15px;
+}
+
+p {
+    padding: 10px;
+    font-family: Vainilla;
+    font-weight: bold;
+    font-size: 2.5rem;
+    color: #000000;
+    margin-right: 60px;
+    margin-left: 60px;
+}
+
+h2 {
+    padding: 20px;
+   text-align: center;
+    font-family: Vainilla;
+    font-size: 4rem;
+    color: #000000;
+
+
+}
+
+h3 {
+    font-family: PerfectLova;
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+.h3-titulo {
+    color: #d8297a; 
+    
+    font-family: Vainilla;
+    font-size: 2.5rem;
+}
+
+h4 {
+    font-family: PerfectLova;
+    font-size: 2rem;
+    color: black;
+    text-align: center;
+    
+}
+
+nav ul {
+display: flex;
+flex-direction: row;
+justify-content:center;
+padding-top: 15px;
+}
+
+.p-titulo {
+    font-family: Vainilla;
+    font-size: 2.5rem;
+    
+}
+
+.p-texto {
+    font-family: Vainilla;
+    font-size: 2rem;
+    color: rgb(124, 44, 44);
+}
+
+a {
+    color: #ff0077;
+    font-family: Vainilla;
+
+}
+
+div {
+
+    padding: 30px;
+    margin: 0px;
+
+}
+
+.flex-container {
+    background-color: #F2D5C4;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+
+li {
+    list-style-type: none;
+    padding-bottom: 10px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px;
+    font-family: Vainilla;
+    color: #A62E4E;
+
+}
+
+
+
+
+.flex-image {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    justify-content: center;
+}
+
+.item {
+    margin: 5px;
+    width: 30%;
+    height: 30%;
+}
+
+
+
+
+.flex-galeria {
+    display: flex;
+    flex-wrap: wrap;
+justify-content: center;
+background-color: #F2D5C4;
+}
+
+.color-formulario {
+    background-color:#F2D5C4;
+    display: flex;
+    justify-content: center;
+    
+}
+
+label {
+    font-family: PerfectLova;
+    font-size: 2rem;
+    color: rgb(124, 44, 44);
+    
+}
+
+.input-boton {
+    background-color: #d8297a;
+    padding: 25px;
+    border-radius: 100px;
+    color: #F2D5C4; 
+    border-color: white;
+}
+
+.contenedor {
+    display: grid;
+    background:#F2D5C4;
+   
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 0.1fr 1fr 0.5fr;
+    grid-template-areas: "titulo         titulo"
+                         "ingredientes   imagen"
+                         "procedimiento  procedimiento";
+    justify-content: center;
+    align-items: center;
+}   
+
+.contenedor .titulo {
+    background: #F2D5C4;
+    grid-column-start: titulo;
+    grid-column-end: titulo;
+    align-content: stretch;
+    align-content: center;
+    justify-self: stretch;
+}
+
+
+.contenedor .procedimiento {
+    background: #F2D5C4;
+    grid-column-start: procedimiento;
+    grid-column-end: procedimiento;
+    align-content: stretch;
+    align-content: center;
+    justify-self: stretch;
+}
+
+
+
+
+.img-recetas {
+   
+    width: 50%;
+    height: 50%;
+    
+}
+
+.color {
+   background-color: #D9115A;
+   
+}
+
+.img-carousel {
+    width: 50%;
+    height: 50%;
+}
+
+.content-carousel {
+    background-color: #F2D5C4;
+    width: 100%;
+    padding-left: 32%;
+    
+}
+
+button{
+    border: none;
+    background-color: transparent;
+    transition: 0.5s;
+}
+button:hover {
+    
+    transform: scale(1.3);
+}
