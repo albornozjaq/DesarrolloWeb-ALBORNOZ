@@ -1,0 +1,33 @@
+//extend//
+.alineacion {
+    align-content: stretch;
+    align-content: center;
+    justify-self: stretch;
+}
+
+.contenedor {
+    display: grid;
+    background: $colorPink;
+
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 0.1fr 1fr 0.5fr;
+    grid-template-areas: "titulo         titulo"
+        "ingredientes   imagen"
+        "procedimiento  procedimiento";
+    justify-content: center;
+    align-items: center;
+
+    .titulo {
+        background: $colorPink;
+        grid-column-start: titulo;
+        grid-column-end: titulo;
+        @extend .alineacion;
+    }
+
+    .procedimiento {
+        background: $colorPink;
+        grid-column-start: procedimiento;
+        grid-column-end: procedimiento;
+        @extend .alineacion;
+    }
+}

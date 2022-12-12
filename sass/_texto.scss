@@ -1,0 +1,77 @@
+h1 {
+
+    font-family: Perfect;
+    font-size: 6rem;
+    text-align: center;
+    color: $colorLetra;
+
+}
+
+p {
+    padding: 10px;
+    font-family: Vainilla;
+    font-weight: bold;
+    font-size: 2.5rem;
+    color: $colorBlack;
+    margin-right: 60px;
+    margin-left: 60px;
+}
+
+h2 {
+    padding: 20px;
+    text-align: center;
+    font-family: Vainilla;
+    font-size: 4rem;
+    color: $colorBrown;
+
+
+}
+
+h3 {
+    font-family: PerfectLova;
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+//extend//
+.fontfamily-fontsize {
+    font-family: Vainilla;
+    font-size: 2.5rem;
+}
+
+
+.h3-titulo {
+    color: $colorLetra;
+
+@extend .fontfamily-fontsize;
+}
+
+h4 {
+    font-family: PerfectLova;
+    font-size: 2rem;
+    color: $colorBlack;
+    text-align: center;
+
+}
+.p-titulo {
+@extend .fontfamily-fontsize;
+
+}
+
+.p-texto {
+    font-family: Vainilla;
+    font-size: 2rem;
+    color: $colorParrafo;
+}
+
+a {
+    color: $colorA;
+    font-family: Vainilla;
+
+}
+label {
+    font-family: PerfectLova;
+    font-size: 2rem;
+    color: $colorParrafo ;
+
+}

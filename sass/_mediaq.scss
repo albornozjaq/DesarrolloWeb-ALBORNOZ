@@ -1,0 +1,226 @@
+@media screen and (min-width: 320px) {
+
+    h1 {
+
+        font-family: Perfect;
+        font-size: 3rem;
+        text-align: center;
+        color: $colorLetra;
+
+    }
+
+    p {
+        padding: 10px;
+        font-family: Vainilla;
+        font-weight: bold;
+        font-size: 1rem;
+        color: $colorBlack;
+        margin-right: 60px;
+        margin-left: 60px;
+    }
+
+    h2 {
+        padding: 20px;
+        text-align: center;
+        font-family: Vainilla;
+        font-size: 3rem;
+        color: $colorBrown;
+
+
+    }
+
+    h3 {
+        font-family: PerfectLova;
+        font-size: 1.2rem;
+        text-align: center;
+    }
+
+    .h3-titulo {
+        color: $colorLetra;
+
+        font-family: Vainilla;
+        font-size: 1.2rem;
+    }
+
+    h4 {
+        font-family: PerfectLova;
+        font-size: 2rem;
+        color: $colorBlack;
+        text-align: center;
+
+    }
+
+
+
+    .p-titulo {
+        font-family: Vainilla;
+        font-size: 2.5rem;
+
+    }
+
+    .p-texto {
+        font-family: Vainilla;
+        font-size: 2rem;
+        color: $colorParrafo;
+    }
+
+
+a {
+    font-size: 13px;
+}
+
+.img-carousel {
+    width: 200%;
+    height: 200%;
+}
+
+
+}
+
+
+@media screen and (min-width: 480px) {
+
+    h1 {
+
+        font-family: Perfect;
+        font-size: 3rem;
+        text-align: center;
+        color: $colorLetra;
+
+    }
+
+    p {
+        padding: 10px;
+        font-family: Vainilla;
+        font-weight: bold;
+        font-size: 0.5rem;
+        color: $colorBlack;
+        margin-right: 60px;
+        margin-left: 60px;
+    }
+
+    h2 {
+        padding: 20px;
+        text-align: center;
+        font-family: Vainilla;
+        font-size: 3rem;
+        color: $colorBrown;
+
+
+    }
+
+    h3 {
+        font-family: PerfectLova;
+        font-size: 0.9rem;
+        text-align: center;
+    }
+
+    .h3-titulo {
+        color: $colorLetra;
+
+        font-family: Vainilla;
+        font-size: 0.9rem;
+    }
+
+    h4 {
+        font-family: PerfectLova;
+        font-size: 1rem;
+        color: $colorBlack;
+        text-align: center;
+
+    }
+
+    .p-titulo {
+        font-family: Vainilla;
+        font-size: 1.5rem;
+
+    }
+
+    .p-texto {
+        font-family: Vainilla;
+        font-size: 1rem;
+        color: $colorParrafo;
+    }
+
+
+a{
+    font-size: 17px;
+}
+
+.img-carousel {
+    width: 100%;
+    height: 100%;
+}
+
+}
+
+@media screen and (min-width: 1024px) {
+
+    h1 {
+
+        font-family: Perfect;
+        font-size: 6rem;
+        text-align: center;
+        color: $colorLetra;
+
+    }
+
+    p {
+        padding: 10px;
+        font-family: Vainilla;
+        font-weight: bold;
+        font-size: 2.5rem;
+        color: $colorBlack;
+        margin-right: 60px;
+        margin-left: 60px;
+    }
+
+    h2 {
+        padding: 20px;
+        text-align: center;
+        font-family: Vainilla;
+        font-size: 4rem;
+        color: $colorBrown;
+
+
+    }
+
+    h3 {
+        font-family: PerfectLova;
+        font-size: 2.5rem;
+        text-align: center;
+    }
+
+    .h3-titulo {
+        color: $colorLetra;
+
+        font-family: Vainilla;
+        font-size: 2.5rem;
+    }
+
+    h4 {
+        font-family: PerfectLova;
+        font-size: 2rem;
+        color: $colorBlack;
+        text-align: center;
+
+    }
+
+
+    .p-titulo {
+        font-family: Vainilla;
+        font-size: 2.5rem;
+
+    }
+
+    .p-texto {
+        font-family: Vainilla;
+        font-size: 2rem;
+        color: $colorParrafo;
+    }
+
+    a {
+        font-size: 20px;
+    }
+
+}

@@ -1,0 +1,28 @@
+.flex-footer {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    background-color: $colorHeader;
+
+}
+
+.box-footer {
+    width: 200px;
+    text-align: center;
+
+}
+.flex-container {
+    background-color: $colorPink;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.flex-image {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    justify-content: center;
+}
