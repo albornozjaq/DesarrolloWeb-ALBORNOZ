@@ -67,7 +67,6 @@ a {
 
 .color-formulario {
   background-color: #F2D5C4;
-  display: flex;
   justify-content: center;
 }
 
@@ -360,6 +359,7 @@ label {
   border-radius: 100px;
   color: #F2D5C4;
   border-color: white;
+  font-size: 1.5rem;
 }
 
 .img-recetas {
