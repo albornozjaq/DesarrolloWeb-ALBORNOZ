@@ -70,6 +70,53 @@ a {
   justify-content: center;
 }
 
+.input-boton {
+  background-color: #d8297a;
+  padding: 25px;
+  border-radius: 100px;
+  color: #F2D5C4;
+  border-color: white;
+  font-size: 1.5rem;
+}
+
+.img-recetas {
+  width: 50%;
+  height: 50%;
+}
+
+.color {
+  background-color: #D9115A;
+}
+
+.img-carousel {
+  width: 50%;
+  height: 50%;
+}
+
+.content-carousel {
+  background-color: #F2D5C4;
+  width: 100%;
+  text-align: center;
+}
+
+button {
+  border: none;
+  background-color: transparent;
+  transition: 0.5s;
+}
+
+button:hover {
+  transform: scale(1.3);
+}
+
+a:hover {
+  color: rgb(233, 3, 103);
+}
+
+.div-galeria {
+  text-align: center;
+}
+
 .alineacion, .contenedor .procedimiento, .contenedor .titulo {
   align-content: stretch;
   align-content: center;
@@ -94,6 +141,15 @@ a {
   background: #F2D5C4;
   grid-column-start: procedimiento;
   grid-column-end: procedimiento;
+}
+
+.contenedor-galeria {
+  background-color: #F2D5C4;
+  display: grid;
+  grid-template-columns: repeat(2, [col-start]) 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  justify-content: center;
+  align-items: center;
 }
 
 h1 {
@@ -189,7 +245,7 @@ label {
   justify-content: center;
 }
 
-@media screen and (min-width: 320px) {
+@media screen and (max-width: 480px) {
   h1 {
     font-family: Perfect;
     font-size: 3rem;
@@ -202,11 +258,10 @@ label {
     font-weight: bold;
     font-size: 1rem;
     color: black;
-    margin-right: 60px;
-    margin-left: 60px;
+    margin-right: 10px;
+    margin-left: 10px;
   }
   h2 {
-    padding: 20px;
     text-align: center;
     font-family: Vainilla;
     font-size: 3rem;
@@ -241,8 +296,12 @@ label {
     font-size: 13px;
   }
   .img-carousel {
-    width: 200%;
-    height: 200%;
+    width: 100%;
+    height: 100%;
+  }
+  .contenedor {
+    display: flex;
+    flex-direction: column;
   }
 }
 @media screen and (min-width: 480px) {
@@ -352,59 +411,4 @@ label {
   a {
     font-size: 20px;
   }
-}
-.input-boton {
-  background-color: #d8297a;
-  padding: 25px;
-  border-radius: 100px;
-  color: #F2D5C4;
-  border-color: white;
-  font-size: 1.5rem;
-}
-
-.img-recetas {
-  width: 50%;
-  height: 50%;
-}
-
-.color {
-  background-color: #D9115A;
-}
-
-.img-carousel {
-  width: 50%;
-  height: 50%;
-}
-
-.content-carousel {
-  background-color: #F2D5C4;
-  width: 100%;
-  text-align: center;
-}
-
-button {
-  border: none;
-  background-color: transparent;
-  transition: 0.5s;
-}
-
-button:hover {
-  transform: scale(1.3);
-}
-
-a:hover {
-  color: rgb(233, 3, 103);
-}
-
-.contenedor-galeria {
-  background-color: #F2D5C4;
-  display: grid;
-  grid-template-columns: repeat(2, [col-start]) 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
-  justify-content: center;
-  align-items: center;
-}
-
-.div-galeria {
-  text-align: center;
 }/*# sourceMappingURL=styless.css.map */

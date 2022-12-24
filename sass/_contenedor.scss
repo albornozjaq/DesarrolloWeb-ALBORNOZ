@@ -31,3 +31,15 @@
         @extend .alineacion;
     }
 }
+
+.contenedor-galeria {
+    background-color: #F2D5C4;
+    display: grid;
+    grid-template-columns: repeat(2, [col-start]) 1fr;
+
+
+    grid-template-rows: 1fr 1fr 1fr;
+
+    justify-content: center;
+    align-items: center;
+}
